@@ -1,0 +1,20 @@
+package:
+    name: uppmaboss
+    version: '0.1'
+source:
+    path: .
+
+build:
+    noarch: python
+
+requirements:
+    build:
+        - python
+        - setuptools
+    run:
+        - python
+        - pymaboss
+        - maboss
+        - seaborn
+        - pandas
+        - perl
